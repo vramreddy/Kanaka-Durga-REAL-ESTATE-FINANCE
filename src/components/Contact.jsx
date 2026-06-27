@@ -78,6 +78,9 @@ export default function Contact() {
         <Row className="g-4">
           <Col xs={12} lg={7} data-aos="fade-right">
             <div className="contact-form">
+              <h4 style={{ color: 'var(--color-navy)', marginBottom: '1.5rem', fontFamily: 'var(--font-heading)', fontWeight: '600' }}>
+                📋 Quick Enquiry
+              </h4>
               {submitted ? (
                 <div className="text-center py-4">
                   <FiCheckCircle size={60} color="var(--color-success)" />
