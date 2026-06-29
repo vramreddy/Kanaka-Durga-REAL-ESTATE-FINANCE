@@ -1840,8 +1840,19 @@ ul {
 
 /* Extra small (below 400px) */
 @media (max-width: 400px) {
+  .navbar-custom .brand-logo-img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .navbar-custom .brand-text {
+    font-size: 0.95rem;
+  }
+
   .navbar-custom .brand-text small {
-    display: none;
+    display: block;
+    font-size: 0.52rem;
+    letter-spacing: 0.5px;
   }
 
   .hero-badge {

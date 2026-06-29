@@ -31,7 +31,6 @@ const TESTIMONIALS = [
 function TestimonialCard({ t }) {
   return (
     <div className="testimonial-card">
-      <div className="quote-icon">&ldquo;</div>
       <div className="stars">
         {[...Array(t.rating)].map((_, j) => (
           <FiStar key={j} style={{ fill: 'var(--color-gold)', marginRight: 2 }} />
